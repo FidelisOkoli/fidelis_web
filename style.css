@@ -1,0 +1,66 @@
+.container {
+    display: grid;
+    grid-template-areas:
+      'header';
+
+    grid-gap: 1rem;
+}
+
+body {
+    margin: auto;
+    width: 60%;
+    border: 2px solid gray;
+    padding: 1px;
+}
+
+
+.header,
+ .content,
+ .Box-1,
+ .Box-2,
+ .Box-3,
+ .Box-4,
+ .Box-5,
+ .Box-6 {
+    
+    padding: 0 1rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=button] {
+    width: 19%;
+    color: rgb(42, 69, 239);
+    font-weight: 550;
+    border-radius: 10px ;
+    border-color:rgb(42, 69, 239) ;
+    box-sizing: inherit;
+    
+}
+
+
+
+.Box-3 {
+    background-color: rgb(158, 157, 157);
+    padding: 10px 1rem;
+    border-radius: 20px;
+}
+
+
+
+
+.Box-6 {
+    background-color: rgb(0, 76, 255);
+    border-top-left-radius: 20%;
+    text-align: center;
+}
+
